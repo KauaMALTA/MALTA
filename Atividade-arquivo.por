@@ -7,10 +7,10 @@ programa {
     escreva("Aqui está "+num1+"+"+num2+"="+soma)
 
 
-    real num1,num2
+    real num1,num2,resultado
     escreva("Digite dois numeros a serem subtraidos: ")
-    leia (num1, num2)
-    real result
-    result = num1 - num2
+    leia(num1,num2)
+    resultado = num1 - num2
+    escreva("O resultado da subtração deu " + resultado)
   }
 }
